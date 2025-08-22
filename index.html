@@ -7,6 +7,260 @@
         <script src="script.js" defer></script>
         <title>Norday Image Gallery</title>
     </head>
-</html>
 
-<body></body>
+    <body>
+        <header class="header">
+            <h1 class="header__title">Modern Art Prints</h1>
+
+            <p class="header__description">
+                A curated gallery of creative prints, selected for their bold
+                designs and striking visuals. This collection brings together a
+                range of styles that highlight color, texture, and originality.
+            </p>
+        </header>
+
+        <section class="section">
+            <h2 class="section__title">Gallery</h2>
+
+            <p class="section__description">
+                Explore a selection of standout prints, each chosen for its
+                unique look and visual impact.
+            </p>
+
+            <!-- Image gallery -->
+            <div class="section__media">
+                <p class="section__media-count">Media Items (12)</p>
+
+                <ul class="list">
+                    <!-- I would make a single li item a component which the ul loops through -->
+                    <li class="list__item">
+                        <figure class="list__figure">
+                            <img
+                                class="list__image"
+                                src="images/img-1.jpg"
+                                alt="Abstract poster with a flowing, ribbon-like blue shape against a light background. Japanese text and a logo appear at the bottom."
+                                width="724"
+                                height="1024"
+                                loading="lazy"
+                            />
+                            <figcaption class="list__caption">
+                                Waves — By Alexander Khabbazi
+                            </figcaption>
+                        </figure>
+                        <a
+                            class="list__download"
+                            href="/images/img-1.jpg"
+                            download
+                        >
+                            <svg
+                                class="list__download-icon"
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                            >
+                                <path
+                                    fill="#000"
+                                    fill-rule="evenodd"
+                                    d="m16.9 12.65-4.25 4.25A.725.725 0 0 1 12 17.1C11.75 17.125 11.5 17.1 11.35 16.9l-4.25-4.25A.75.75 0 1 1 8.15 11.575L11.25 14.725V6.75a.75.75 0 0 1 1.5 0v7.95l2.85-2.81a.75.75 0 1 1 1.05 1.05zM12 0a12 12 0 1 0 0 24 12 12 0 0 0 0-24z"
+                                />
+                            </svg>
+                            <span class="list__download-label">Download</span>
+                        </a>
+                    </li>
+
+                    <li class="list__item">
+                        <figure class="list__figure">
+                            <img
+                                class="list__image"
+                                src="images/img-2.jpg"
+                                alt="Illustration of a red and white koi fish swimming in a blue tiled pond. Japanese text along the bottom describes the fish as a symbol of good fortune and prosperity"
+                                width="724"
+                                height="1024"
+                                loading="lazy"
+                            />
+                            <figcaption class="list__caption">
+                                Kohaku — By Othman Zougam
+                            </figcaption>
+                        </figure>
+                        <a
+                            class="list__download"
+                            href="/images/img-1.jpg"
+                            download
+                        >
+                            <svg
+                                class="list__download-icon"
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                            >
+                                <path
+                                    fill="#000"
+                                    fill-rule="evenodd"
+                                    d="m16.9 12.65-4.25 4.25A.725.725 0 0 1 12 17.1C11.75 17.125 11.5 17.1 11.35 16.9l-4.25-4.25A.75.75 0 1 1 8.15 11.575L11.25 14.725V6.75a.75.75 0 0 1 1.5 0v7.95l2.85-2.81a.75.75 0 1 1 1.05 1.05zM12 0a12 12 0 1 0 0 24 12 12 0 0 0 0-24z"
+                                />
+                            </svg>
+                            <span class="list__download-label">Download</span>
+                        </a>
+                    </li>
+
+                    <li class="list__item">
+                        <figure class="list__figure">
+                            <img
+                                class="list__image"
+                                src="images/img-3.jpg"
+                                alt='A black, wavy, cat with the text "Nine lives none left" in red.'
+                                width="724"
+                                height="1024"
+                                loading="lazy"
+                            />
+                            <figcaption class="list__caption">
+                                Nine Lives — By Alexander Khabbazi
+                            </figcaption>
+                        </figure>
+                        <a
+                            class="list__download"
+                            href="/images/img-1.jpg"
+                            download
+                        >
+                            <svg
+                                class="list__download-icon"
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                            >
+                                <path
+                                    fill="#000"
+                                    fill-rule="evenodd"
+                                    d="m16.9 12.65-4.25 4.25A.725.725 0 0 1 12 17.1C11.75 17.125 11.5 17.1 11.35 16.9l-4.25-4.25A.75.75 0 1 1 8.15 11.575L11.25 14.725V6.75a.75.75 0 0 1 1.5 0v7.95l2.85-2.81a.75.75 0 1 1 1.05 1.05zM12 0a12 12 0 1 0 0 24 12 12 0 0 0 0-24z"
+                                />
+                            </svg>
+                            <span class="list__download-label">Download</span>
+                        </a>
+                    </li>
+
+                    <li class="list__item">
+                        <figure class="list__figure">
+                            <img
+                                class="list__image"
+                                src="images/img-4.jpg"
+                                alt="A minimalist landscape illustration with a pink sky, a white sun, brown mountains, and a blue lake."
+                                width="724"
+                                height="1024"
+                                loading="lazy"
+                            />
+                            <figcaption class="list__caption">
+                                Jökulsárlón — By Lily Kong
+                            </figcaption>
+                        </figure>
+                        <a
+                            class="list__download"
+                            href="/images/img-1.jpg"
+                            download
+                        >
+                            <svg
+                                class="list__download-icon"
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                            >
+                                <path
+                                    fill="#000"
+                                    fill-rule="evenodd"
+                                    d="m16.9 12.65-4.25 4.25A.725.725 0 0 1 12 17.1C11.75 17.125 11.5 17.1 11.35 16.9l-4.25-4.25A.75.75 0 1 1 8.15 11.575L11.25 14.725V6.75a.75.75 0 0 1 1.5 0v7.95l2.85-2.81a.75.75 0 1 1 1.05 1.05zM12 0a12 12 0 1 0 0 24 12 12 0 0 0 0-24z"
+                                />
+                            </svg>
+                            <span class="list__download-label">Download</span>
+                        </a>
+                    </li>
+
+                    <li class="list__item">
+                        <figure class="list__figure">
+                            <img
+                                class="list__image"
+                                src="images/img-5.jpg"
+                                alt='A vintage Japanese poster featuring two peaches, with Plum Park" and "1999" in white text.'
+                                width="724"
+                                height="1024"
+                                loading="lazy"
+                            />
+                            <figcaption class="list__caption">
+                                Champion Plum — By George Kempster
+                            </figcaption>
+                        </figure>
+                        <a
+                            class="list__download"
+                            href="/images/img-1.jpg"
+                            download
+                        >
+                            <svg
+                                class="list__download-icon"
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                            >
+                                <path
+                                    fill="#000"
+                                    fill-rule="evenodd"
+                                    d="m16.9 12.65-4.25 4.25A.725.725 0 0 1 12 17.1C11.75 17.125 11.5 17.1 11.35 16.9l-4.25-4.25A.75.75 0 1 1 8.15 11.575L11.25 14.725V6.75a.75.75 0 0 1 1.5 0v7.95l2.85-2.81a.75.75 0 1 1 1.05 1.05zM12 0a12 12 0 1 0 0 24 12 12 0 0 0 0-24z"
+                                />
+                            </svg>
+                            <span class="list__download-label">Download</span>
+                        </a>
+                    </li>
+
+                    <li class="list__item">
+                        <figure class="list__figure">
+                            <img
+                                class="list__image"
+                                src="images/img-6.jpg"
+                                alt='A bold red poster with black text that reads "Not everything has a meaning".'
+                                width="724"
+                                height="1024"
+                                loading="lazy"
+                            />
+                            <figcaption class="list__caption">
+                                MEANING — By Brad Mead
+                            </figcaption>
+                        </figure>
+                        <a
+                            class="list__download"
+                            href="/images/img-1.jpg"
+                            download
+                        >
+                            <svg
+                                class="list__download-icon"
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                            >
+                                <path
+                                    fill="#000"
+                                    fill-rule="evenodd"
+                                    d="m16.9 12.65-4.25 4.25A.725.725 0 0 1 12 17.1C11.75 17.125 11.5 17.1 11.35 16.9l-4.25-4.25A.75.75 0 1 1 8.15 11.575L11.25 14.725V6.75a.75.75 0 0 1 1.5 0v7.95l2.85-2.81a.75.75 0 1 1 1.05 1.05zM12 0a12 12 0 1 0 0 24 12 12 0 0 0 0-24z"
+                                />
+                            </svg>
+                            <span class="list__download-label">Download</span>
+                        </a>
+                    </li>
+                </ul>
+
+                <button class="section__load-more">Show all 12 Images</button>
+            </div>
+        </section>
+
+        <!-- Modal dialog -->
+        <dialog id="imageModal">
+            <button id="closeModal" class="close-btn">✕</button>
+            <figure>
+                <img id="modalImg" src="" alt="" loading="lazy" />
+                <figcaption id="modalCaption"></figcaption>
+            </figure>
+        </dialog>
+    </body>
+</html>
