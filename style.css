@@ -3,9 +3,9 @@
    ========================================================== */
 @font-face {
   font-family: 'Tanker-Regular';
-  src: url('/fonts/Tanker-Regular.woff2') format('woff2'),
-       url('/fonts/Tanker-Regular.woff') format('woff'),
-       url('/fonts/Tanker-Regular.ttf') format('truetype');
+  src: url('fonts/Tanker-Regular.woff2') format('woff2'),
+       url('fonts/Tanker-Regular.woff') format('woff'),
+       url('fonts/Tanker-Regular.ttf') format('truetype');
   font-weight: 400;
   font-display: swap;
   font-style: normal;
@@ -13,7 +13,7 @@
 
 @font-face {
   font-family: 'Inter';
-  src: url('/fonts/Inter-VariableFont.ttf') format('truetype');
+  src: url('fonts/Inter-VariableFont.ttf') format('truetype');
   font-weight: 400;
   font-display: swap;
   font-style: normal;
@@ -339,11 +339,13 @@ a {
 }
 
 .modal__close-button {
+    align-items: center;
     background: var(--c-orange);
     border: none;
     border-radius: var(--b-radius-pill);
     color: var(--c-brown);
     display: flex;
+    justify-content: center;
     padding: var(--p-gutter--xsmall) var(--p-gutter--xsmall);
     position: absolute;
     right: var(--p-gutter--large);
@@ -352,10 +354,15 @@ a {
     z-index: 10;
 }
 
+.modal__close-button svg {
+    height: 2rem;
+    width: 2rem;
+}
+
 .modal__close-button:hover,
 .modal__close-button:focus-visible {
-    background: var(--c-cream);
-    color: var(--c-brown);
+    background: var(--c-brown);
+    fill: var(--c-cream);
 }
 
 /* ==========================================================
