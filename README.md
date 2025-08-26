@@ -42,6 +42,8 @@ View the live project here:
 - **CSS**
 - **Vanilla JavaScript**
 
+---
+
 ## 📝 Notes
 
 
