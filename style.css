@@ -198,21 +198,21 @@ a {
 /* ==========================================================
    GALLERY IMAGE & WRAPPER
    ========================================================== */
-   .gallery-list__image-wrapper {
-       border-radius: var(--b-radius-small) 0 var(--b-radius-small) 0;
-       overflow: hidden;
-   }
-   
-   .gallery-list__image {
-       border-radius: var(--b-radius-small) 0 var(--b-radius-small) 0;
-       transition: 0.2s ease-in-out;
-    }
-    
-    .gallery-list__image:hover,
-    .gallery-list__image:focus-visible {
-        cursor: pointer;
-        scale: 1.05;
-    }
+.gallery-list__image-wrapper {
+    border-radius: var(--b-radius-small) 0 var(--b-radius-small) 0;
+    overflow: hidden;
+}
+
+.gallery-list__image {
+    border-radius: var(--b-radius-small) 0 var(--b-radius-small) 0;
+    transition: 0.2s ease-in-out;
+}
+
+.gallery-list__image:hover,
+.gallery-list__image:focus-visible {
+    cursor: pointer;
+    scale: 1.05;
+}
 
 .gallery-list__caption {
     margin-top: var(--p-gutter--medium);
